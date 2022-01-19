@@ -7,6 +7,7 @@ public class Program {
 
         System.out.println(apfel.getName());
         System.out.println(apfel.getGewicht());
+        System.out.println(apfel);
 
     }
 }
