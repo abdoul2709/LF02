@@ -17,6 +17,7 @@ public class Spieler {
         this.torschuss = torschuss;
         this.motivation = motivation;
 
+
     }
 
 
@@ -38,6 +39,7 @@ public class Spieler {
     }
 
     public int getStaerke() {
+
         return staerke;
     }
 
@@ -50,6 +52,7 @@ public class Spieler {
 
         return motivation;
     }
+
 
     //setter
 
@@ -80,8 +83,10 @@ public class Spieler {
     }
 
     public void setMotivation(int motivation) {
+
         this.motivation = motivation;
     }
+
 
     @Override
     public String toString() {

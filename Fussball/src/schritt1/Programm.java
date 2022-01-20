@@ -5,10 +5,6 @@ public class Programm {
         Trainer trainer = new Trainer("Abdoul", 21, 10);
 
 
-        System.out.println(trainer.getName());
-        System.out.println(trainer.getAlter());
-        System.out.println(trainer.getErfahrung());
-
         System.out.println(trainer);
 
         Spieler spieler = new Spieler("Karim", 40, 50, 10, 10, 10);
@@ -16,8 +12,11 @@ public class Programm {
 
         System.out.println(spieler);
 
+        Torwart torwart = new Torwart("Ahmed", 36, 2, 10, 10);
+
+        System.out.println(torwart);
+
         }
     }
 
 
- 

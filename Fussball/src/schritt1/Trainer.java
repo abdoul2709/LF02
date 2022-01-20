@@ -1,42 +1,19 @@
 package schritt1;
 
-public class Trainer {
+public class Trainer extends Person{
 
-    private String name;
-    private int alter;
+
     private int erfahrung;
 
-    public Trainer (String name, int alter, int erfahrung) {
-        this.name = name;
-        this.alter = alter;
+    public Trainer (String name, int alter, int erfahrung ) {
+        super(name, alter);
         this.erfahrung = erfahrung;
 
-    }
 
-    public String getName() {
-        return name;
-    }
-
-    //getter
-
-
-    public int getAlter() {
-        return alter;
     }
 
     public int getErfahrung() {
         return erfahrung;
-    }
-
-    //setter
-
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setAlter(int alter) {
-        this.alter = alter;
     }
 
     public void setErfahrung(int erfahrung) {
@@ -46,8 +23,8 @@ public class Trainer {
 
     @Override
     public String toString() {
-        String text = "Name = " + name;
-        text += "\n\tAlter = " + alter;
+        String text = "Name = " + getName();
+        text += "\n\tAlter = " + getAlter();
         text += "\n\tErfahrung = " + erfahrung;
 
         return text;
