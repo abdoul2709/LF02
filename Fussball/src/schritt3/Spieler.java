@@ -1,4 +1,4 @@
-package schritt1;
+package schritt3;
 
 public class Spieler {
 

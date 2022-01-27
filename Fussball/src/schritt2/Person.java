@@ -1,4 +1,4 @@
-package schritt1;
+package schritt2;
 
 public abstract class Person {
 
@@ -10,12 +10,11 @@ public abstract class Person {
         this.alter = alter;
     }
 
+    //getter
 
     public String getName() {
         return name;
     }
-
-    //getter
 
 
     public int getAlter() {

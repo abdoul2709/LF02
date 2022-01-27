@@ -1,4 +1,4 @@
-package schritt1;
+package schritt4;
 
 import schritt3.Person;
 
