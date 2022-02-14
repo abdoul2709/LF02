@@ -1,4 +1,4 @@
-package schritt4;
+package schritt5;
 
 import schritt1.Spieler;
 import schritt1.Trainer;
