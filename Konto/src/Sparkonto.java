@@ -8,10 +8,7 @@ public class Sparkonto extends Konto {
 
             @Override
             public String toString() {
-                String text = "Inaber = " + getInaber();
-                text += "\n\tZinssatz = " + getZinsGuthaben();
-
-                return text;
+                return super.toString() + "------------------------------------";
             }
 
     }

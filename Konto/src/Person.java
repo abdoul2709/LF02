@@ -35,9 +35,9 @@ public abstract class Person {
 
     @Override
     public String toString() {
-        String text = "Vorname = " + vorname;
-        text += "\n\tNachname = " + nachname;
-        text += "\n\tAdresse = " + adresse;
+        String text = "\nVorname: " + vorname;
+        text += "\nNachname: " + nachname;
+        text += "\nAdresse: " + adresse;
 
         return text;
     }

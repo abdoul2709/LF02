@@ -17,15 +17,18 @@ public class Girokonto extends Konto {
     }
 
     public boolean überweisen(double betrag, Girokonto girokonto) {
-        if (zinsKredit - betrag >= 0 - getZinsGuthaben() ) {
-
+        if (auszahlen(betrag)) {
+            auszahlen(betrag);
+            girokonto.einzahlen(betrag);
+            return true;
         }
-        return true;
+        else {
+            return false;
+        }
     }
     @Override
     public String toString() {
-        String text = "Zinskredit = " + getZinsKredit();
+        return super.toString() + "Zinskredit: " + getZinsKredit() + "------------------------------------";
 
-        return text;
     }
 }

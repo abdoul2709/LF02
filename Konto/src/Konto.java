@@ -37,23 +37,27 @@ public abstract class Konto {
         this.zinsGuthaben = zinsGuthaben;
     }
 
-    public void einzahlen(double betrag) {
+    public boolean einzahlen(double betrag) {
         kontoStand += betrag;
+        return false;
     }
 
     public boolean auszahlen(double betrag) {
         if (kontoStand - betrag >= 0 - kreditLimit) {
 
+            return true;
         }
-        return true;
+        else {
+            return false;
+        }
     }
 
     @Override
         public String toString() {
-            String text = "Inaber = " + inaber;
-            text += "\n\tKontostand = " + getKontoStand();
-            text += "\n\tKreditlimit = " + getKreditLimit();
-            text += "\nZinsguthaben = " + zinsGuthaben;
+            String text = "\n[Inaber]" + inaber;
+            text += "\n\nKontostand: " + getKontoStand();
+            text += "\nKreditlimit: " + getKreditLimit();
+            text += "\nZinsguthaben: " + zinsGuthaben + "\n";
 
             return text;
         }

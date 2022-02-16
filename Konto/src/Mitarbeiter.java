@@ -6,8 +6,8 @@ public class Mitarbeiter extends Person {
     }
     @Override
     public String toString() {
-        String text = "Vorname = " + getVorname();
-        text += "\n\tNachname = " + getNachname();
+        String text = "\nvorname: " + getVorname();
+        text += "\nvachname: " + getNachname();
 
         return text;
     }

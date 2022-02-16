@@ -36,7 +36,7 @@ public abstract class Person {
 
     @Override
     public String toString() {
-        String text = "Name = " + name;
+        String text = "Name: " + name;
         text += "\n\tAlter = " + alter;
         return text;
     }

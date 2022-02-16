@@ -18,7 +18,7 @@ public class Kunde extends Person {
 
     @Override
     public String toString() {
-        String text = "Betreuer = " + betreuer;
+        String text = super.toString() + "\n\n[Betreuer] " + betreuer;
 
         return text;
     }
