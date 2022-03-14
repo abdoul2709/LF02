@@ -9,10 +9,12 @@ public class Girokonto extends Konto {
     }
 
     public double getZinsKredit() {
+
         return zinsKredit;
     }
 
     public void setZinsKredit(double zinsKredit) {
+
         this.zinsKredit = zinsKredit;
     }
 

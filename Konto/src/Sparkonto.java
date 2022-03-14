@@ -8,7 +8,8 @@ public class Sparkonto extends Konto {
 
             @Override
             public String toString() {
-                return super.toString() + "------------------------------------";
+
+            return super.toString() + "------------------------------------";
             }
 
     }
