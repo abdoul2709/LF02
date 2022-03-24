@@ -17,14 +17,17 @@ public class Ware {
     }
 
     public String getBezeichnung() {
+
         return bezeichnung;
     }
 
     public void setBezeichnung(String bezeichnung) {
+
         this.bezeichnung = bezeichnung;
     }
 
     public String getBeschreibung() {
+
         return beschreibung;
     }
 
@@ -33,18 +36,22 @@ public class Ware {
     }
 
     public double getPreis() {
+
         return preis;
     }
 
     public void setPreis(double preis) {
+
         this.preis = preis;
     }
 
     public ArrayList<String> getBesonderheiten() {
+
         return besonderheiten;
     }
 
     public ArrayList<String> getMaengel() {
+
         return maengel;
     }
     @Override
